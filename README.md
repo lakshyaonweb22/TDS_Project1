@@ -1,16 +1,15 @@
-# GitHub Users in Sydney
+This repository contains data about GitHub users in Sydney, who have over 100 followers and repositories.
 
-This repository contains data about GitHub users in Sydney with over 100 followers and their repositories.
+## How Data is Scraped?
 
-## Files
+The script scrapes data from GitHub using GitHub's API. It authenticates with a token, queries users by location and follower count, and fetches individual user and repository details. Rate limits are handled by retrying after a wait. Data is stored in CSV files for users and their repositories.
 
-1. `users.csv`: Contains information about 375 GitHub users in Sydney with over 100 followers
-2. `repositories.csv`: Contains information about 32752 public repositories from these users
-3. `gitscrap.py`: Python script used to collect this data
+## Interesting and Surprising fact found after analyzing the data
 
-## Data Collection
+After analyzing the data, one of the most surprising findings was the diversity in programming languages used by GitHub users in Sydney. Despite Sydney’s strong focus on tech sectors like finance, many repositories featured unconventional languages, reflecting a broad spectrum of interests and specializations.
 
-- Data collected using GitHub API
-- Date of collection: 2024-10-30
-- Only included users with 100+ followers
-- Up to 500 most recently pushed repositories per user
+## Recommendation for developers based on analysis
+
+Based on the analysis, developers in Sydney should consider diversifying their skill sets by learning emerging programming languages. This could enhance their visibility and marketability in tech hubs, where language diversity is valued. Focusing on open-source contributions may also boost their follower count and networking opportunities.
+
+
